@@ -1,0 +1,308 @@
+[1601328965.776][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31418
+[1601328965.776][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601328967.535][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\admin\\IdeaProjects\\TBCTestExample\\build\\downloads\\1601328962559_14236_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\admin\\IdeaProjects\\TBCTestExample\\build\\downloads\\1601328962559_14236_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601328967.541][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\admin\\IdeaProjects\\TBCTestExample\\build\\downloads\\1601328962559_14236_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601328968.356][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601328968.372][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\admin\AppData\Local\Temp\scoped_dir3492_729622109" data:,
+[1601328969.828][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601328971.858][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601328974.054][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir3492_729622109"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57829"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0747d3dc49795cde17f67325a6b8a767"
+}
+[1601328974.280][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1601328974.280][INFO]: Waiting for pending navigations...
+[1601328974.287][INFO]: Done waiting for pending navigations. Status: ok
+[1601328974.641][INFO]: Waiting for pending navigations...
+[1601328974.676][INFO]: Done waiting for pending navigations. Status: ok
+[1601328974.677][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1601328974.689][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1601328974.689][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE SetTimeouts
+[1601328974.718][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND Navigate {
+   "url": "http://the-internet.herokuapp.com"
+}
+[1601328974.718][INFO]: Waiting for pending navigations...
+[1601328974.749][INFO]: Done waiting for pending navigations. Status: ok
+[1601328975.438][INFO]: Waiting for pending navigations...
+[1601328978.082][INFO]: Done waiting for pending navigations. Status: ok
+[1601328978.082][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE Navigate
+[1601328978.510][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"content\"]/ul/li[39]/a"
+}
+[1601328978.510][INFO]: Waiting for pending navigations...
+[1601328978.511][INFO]: Done waiting for pending navigations. Status: ok
+[1601328978.533][INFO]: Waiting for pending navigations...
+[1601328978.534][INFO]: Done waiting for pending navigations. Status: ok
+[1601328978.534][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "37645f75-0215-4ca5-a725-439972449688"
+}
+[1601328978.584][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "37645f75-0215-4ca5-a725-439972449688"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601328978.584][INFO]: Waiting for pending navigations...
+[1601328978.586][INFO]: Done waiting for pending navigations. Status: ok
+[1601328978.614][INFO]: Waiting for pending navigations...
+[1601328978.615][INFO]: Done waiting for pending navigations. Status: ok
+[1601328978.615][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE ExecuteScript true
+[1601328978.623][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND ClickElement {
+   "id": "37645f75-0215-4ca5-a725-439972449688"
+}
+[1601328978.623][INFO]: Waiting for pending navigations...
+[1601328978.624][INFO]: Done waiting for pending navigations. Status: ok
+[1601328978.739][INFO]: Waiting for pending navigations...
+[1601328979.252][INFO]: Done waiting for pending navigations. Status: ok
+[1601328979.252][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE ClickElement
+[1601328979.260][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"content\"]/div/a[1]"
+}
+[1601328979.260][INFO]: Waiting for pending navigations...
+[1601328979.263][INFO]: Done waiting for pending navigations. Status: ok
+[1601328979.289][INFO]: Waiting for pending navigations...
+[1601328979.290][INFO]: Done waiting for pending navigations. Status: ok
+[1601328979.290][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aa97253b-f3d9-427b-bf07-0d386f32cf71"
+}
+[1601328979.313][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aa97253b-f3d9-427b-bf07-0d386f32cf71"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601328979.313][INFO]: Waiting for pending navigations...
+[1601328979.314][INFO]: Done waiting for pending navigations. Status: ok
+[1601328979.339][INFO]: Waiting for pending navigations...
+[1601328979.340][INFO]: Done waiting for pending navigations. Status: ok
+[1601328979.340][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE ExecuteScript true
+[1601328979.347][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND ClickElement {
+   "id": "aa97253b-f3d9-427b-bf07-0d386f32cf71"
+}
+[1601328979.347][INFO]: Waiting for pending navigations...
+[1601328979.348][INFO]: Done waiting for pending navigations. Status: ok
+[1601328979.450][INFO]: Waiting for pending navigations...
+[1601328979.947][INFO]: Done waiting for pending navigations. Status: ok
+[1601328979.947][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE ClickElement
+[1601328979.955][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"content\"]/div/ul/li[1]/a"
+}
+[1601328979.955][INFO]: Waiting for pending navigations...
+[1601328979.957][INFO]: Done waiting for pending navigations. Status: ok
+[1601328979.986][INFO]: Waiting for pending navigations...
+[1601328979.988][INFO]: Done waiting for pending navigations. Status: ok
+[1601328979.988][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f645eb29-2221-4ac1-a403-9e6c7ff3779f"
+}
+[1601328979.994][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND GetElementCSSProperty {
+   "id": "f645eb29-2221-4ac1-a403-9e6c7ff3779f",
+   "propertyName": "color"
+}
+[1601328979.994][INFO]: Waiting for pending navigations...
+[1601328979.995][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.013][INFO]: Waiting for pending navigations...
+[1601328980.014][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.014][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE GetElementCSSProperty "rgba(218, 75, 75, 1)"
+[1601328980.045][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"content\"]/div/ul/li[1]/a"
+}
+[1601328980.045][INFO]: Waiting for pending navigations...
+[1601328980.046][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.057][INFO]: Waiting for pending navigations...
+[1601328980.061][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.061][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f645eb29-2221-4ac1-a403-9e6c7ff3779f"
+}
+[1601328980.078][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "f645eb29-2221-4ac1-a403-9e6c7ff3779f",
+            "element-6066-11e4-a52e-4f735466cecf": "f645eb29-2221-4ac1-a403-9e6c7ff3779f"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1601328980.078][INFO]: Waiting for pending navigations...
+[1601328980.080][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.214][INFO]: Waiting for pending navigations...
+[1601328980.215][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.215][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE PerformActions
+[1601328980.220][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"content\"]/div/ul/li[1]/a"
+}
+[1601328980.221][INFO]: Waiting for pending navigations...
+[1601328980.222][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.240][INFO]: Waiting for pending navigations...
+[1601328980.243][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.243][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f645eb29-2221-4ac1-a403-9e6c7ff3779f"
+}
+[1601328980.247][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND GetElementCSSProperty {
+   "id": "f645eb29-2221-4ac1-a403-9e6c7ff3779f",
+   "propertyName": "color"
+}
+[1601328980.247][INFO]: Waiting for pending navigations...
+[1601328980.248][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.257][INFO]: Waiting for pending navigations...
+[1601328980.259][INFO]: Done waiting for pending navigations. Status: ok
+[1601328980.259][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE GetElementCSSProperty "rgba(0, 0, 0, 1)"
+[1601328980.790][INFO]: [0747d3dc49795cde17f67325a6b8a767] COMMAND Quit {
+
+}
+[1601328981.733][INFO]: [0747d3dc49795cde17f67325a6b8a767] RESPONSE Quit

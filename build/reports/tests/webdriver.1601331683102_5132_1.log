@@ -1,0 +1,546 @@
+[1601331684.074][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 33160
+[1601331684.074][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601331685.632][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\admin\\IdeaProjects\\TBCTestExample\\build\\downloads\\1601331681403_5132_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\admin\\IdeaProjects\\TBCTestExample\\build\\downloads\\1601331681403_5132_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601331685.639][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\admin\\IdeaProjects\\TBCTestExample\\build\\downloads\\1601331681403_5132_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601331685.670][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601331685.674][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\admin\AppData\Local\Temp\scoped_dir10088_1948126932" data:,
+[1601331686.794][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601331689.250][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601331691.461][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir10088_1948126932"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:59938"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7864a42209e3410df6856b559fc41822"
+}
+[1601331691.644][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1601331691.644][INFO]: Waiting for pending navigations...
+[1601331691.647][INFO]: Done waiting for pending navigations. Status: ok
+[1601331691.772][INFO]: Waiting for pending navigations...
+[1601331691.773][INFO]: Done waiting for pending navigations. Status: ok
+[1601331691.773][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1601331691.781][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1601331691.781][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE SetTimeouts
+[1601331691.801][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND Navigate {
+   "url": "http://the-internet.herokuapp.com"
+}
+[1601331691.802][INFO]: Waiting for pending navigations...
+[1601331691.803][INFO]: Done waiting for pending navigations. Status: ok
+[1601331692.471][INFO]: Waiting for pending navigations...
+[1601331694.552][INFO]: Done waiting for pending navigations. Status: ok
+[1601331694.552][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE Navigate
+[1601331695.051][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "a[href*='/upload']"
+}
+[1601331695.051][INFO]: Waiting for pending navigations...
+[1601331695.052][INFO]: Done waiting for pending navigations. Status: ok
+[1601331695.077][INFO]: Waiting for pending navigations...
+[1601331695.078][INFO]: Done waiting for pending navigations. Status: ok
+[1601331695.078][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a427aecf-0108-4c81-9555-7d8457ff66a8"
+}
+[1601331695.148][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "a427aecf-0108-4c81-9555-7d8457ff66a8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601331695.148][INFO]: Waiting for pending navigations...
+[1601331695.149][INFO]: Done waiting for pending navigations. Status: ok
+[1601331695.179][INFO]: Waiting for pending navigations...
+[1601331695.180][INFO]: Done waiting for pending navigations. Status: ok
+[1601331695.180][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE ExecuteScript true
+[1601331695.189][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND ClickElement {
+   "id": "a427aecf-0108-4c81-9555-7d8457ff66a8"
+}
+[1601331695.189][INFO]: Waiting for pending navigations...
+[1601331695.191][INFO]: Done waiting for pending navigations. Status: ok
+[1601331695.352][INFO]: Waiting for pending navigations...
+[1601331696.045][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.045][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE ClickElement
+[1601331696.065][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#file\\-submit"
+}
+[1601331696.065][INFO]: Waiting for pending navigations...
+[1601331696.070][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.096][INFO]: Waiting for pending navigations...
+[1601331696.098][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.099][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "af47b017-52d2-4094-9aac-5f31e984cb3e"
+}
+[1601331696.145][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "af47b017-52d2-4094-9aac-5f31e984cb3e"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601331696.145][INFO]: Waiting for pending navigations...
+[1601331696.146][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.180][INFO]: Waiting for pending navigations...
+[1601331696.181][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.181][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE ExecuteScript true
+[1601331696.195][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND ClickElement {
+   "id": "af47b017-52d2-4094-9aac-5f31e984cb3e"
+}
+[1601331696.195][INFO]: Waiting for pending navigations...
+[1601331696.196][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.286][INFO]: Waiting for pending navigations...
+[1601331696.619][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.619][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE ClickElement
+[1601331696.633][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331696.634][INFO]: Waiting for pending navigations...
+[1601331696.640][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.662][INFO]: Waiting for pending navigations...
+[1601331696.663][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.664][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331696.896][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331696.896][INFO]: Waiting for pending navigations...
+[1601331696.897][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.907][INFO]: Waiting for pending navigations...
+[1601331696.908][INFO]: Done waiting for pending navigations. Status: ok
+[1601331696.908][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331697.122][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331697.122][INFO]: Waiting for pending navigations...
+[1601331697.124][INFO]: Done waiting for pending navigations. Status: ok
+[1601331697.133][INFO]: Waiting for pending navigations...
+[1601331697.134][INFO]: Done waiting for pending navigations. Status: ok
+[1601331697.134][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331697.346][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331697.346][INFO]: Waiting for pending navigations...
+[1601331697.347][INFO]: Done waiting for pending navigations. Status: ok
+[1601331697.355][INFO]: Waiting for pending navigations...
+[1601331697.356][INFO]: Done waiting for pending navigations. Status: ok
+[1601331697.356][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331697.567][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331697.567][INFO]: Waiting for pending navigations...
+[1601331697.569][INFO]: Done waiting for pending navigations. Status: ok
+[1601331697.578][INFO]: Waiting for pending navigations...
+[1601331697.579][INFO]: Done waiting for pending navigations. Status: ok
+[1601331697.579][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331697.788][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331697.788][INFO]: Waiting for pending navigations...
+[1601331697.789][INFO]: Done waiting for pending navigations. Status: ok
+[1601331697.799][INFO]: Waiting for pending navigations...
+[1601331697.800][INFO]: Done waiting for pending navigations. Status: ok
+[1601331697.800][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331698.009][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331698.009][INFO]: Waiting for pending navigations...
+[1601331698.010][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.020][INFO]: Waiting for pending navigations...
+[1601331698.021][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.021][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331698.232][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331698.232][INFO]: Waiting for pending navigations...
+[1601331698.233][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.245][INFO]: Waiting for pending navigations...
+[1601331698.246][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.246][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331698.454][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331698.454][INFO]: Waiting for pending navigations...
+[1601331698.455][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.464][INFO]: Waiting for pending navigations...
+[1601331698.465][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.465][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331698.674][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331698.674][INFO]: Waiting for pending navigations...
+[1601331698.675][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.685][INFO]: Waiting for pending navigations...
+[1601331698.686][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.686][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331698.895][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331698.895][INFO]: Waiting for pending navigations...
+[1601331698.896][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.906][INFO]: Waiting for pending navigations...
+[1601331698.907][INFO]: Done waiting for pending navigations. Status: ok
+[1601331698.907][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331699.116][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331699.116][INFO]: Waiting for pending navigations...
+[1601331699.117][INFO]: Done waiting for pending navigations. Status: ok
+[1601331699.127][INFO]: Waiting for pending navigations...
+[1601331699.128][INFO]: Done waiting for pending navigations. Status: ok
+[1601331699.128][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331699.335][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331699.336][INFO]: Waiting for pending navigations...
+[1601331699.337][INFO]: Done waiting for pending navigations. Status: ok
+[1601331699.346][INFO]: Waiting for pending navigations...
+[1601331699.347][INFO]: Done waiting for pending navigations. Status: ok
+[1601331699.347][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331699.555][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331699.555][INFO]: Waiting for pending navigations...
+[1601331699.556][INFO]: Done waiting for pending navigations. Status: ok
+[1601331699.565][INFO]: Waiting for pending navigations...
+[1601331699.566][INFO]: Done waiting for pending navigations. Status: ok
+[1601331699.566][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331699.773][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331699.773][INFO]: Waiting for pending navigations...
+[1601331699.774][INFO]: Done waiting for pending navigations. Status: ok
+[1601331699.783][INFO]: Waiting for pending navigations...
+[1601331699.784][INFO]: Done waiting for pending navigations. Status: ok
+[1601331699.784][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331699.993][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331699.993][INFO]: Waiting for pending navigations...
+[1601331699.994][INFO]: Done waiting for pending navigations. Status: ok
+[1601331700.003][INFO]: Waiting for pending navigations...
+[1601331700.004][INFO]: Done waiting for pending navigations. Status: ok
+[1601331700.004][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331700.214][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331700.214][INFO]: Waiting for pending navigations...
+[1601331700.215][INFO]: Done waiting for pending navigations. Status: ok
+[1601331700.224][INFO]: Waiting for pending navigations...
+[1601331700.227][INFO]: Done waiting for pending navigations. Status: ok
+[1601331700.227][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331700.434][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content"
+}
+[1601331700.435][INFO]: Waiting for pending navigations...
+[1601331700.436][INFO]: Done waiting for pending navigations. Status: ok
+[1601331700.445][INFO]: Waiting for pending navigations...
+[1601331700.446][INFO]: Done waiting for pending navigations. Status: ok
+[1601331700.446][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#content"}
+  (Session info: chrome=85.0.4183.121)
+[1601331700.661][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1601331700.661][INFO]: Waiting for pending navigations...
+[1601331700.663][INFO]: Done waiting for pending navigations. Status: ok
+[1601331700.668][INFO]: Waiting for pending navigations...
+[1601331700.669][INFO]: Done waiting for pending navigations. Status: ok
+[1601331700.669][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003Ch1>Internal Server Error\u003C/h1>\u003C/body>\u003C/html>"
+[1601331700.673][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND Screenshot {
+
+}
+[1601331700.673][INFO]: Waiting for pending navigations...
+[1601331700.674][INFO]: Done waiting for pending navigations. Status: ok
+[1601331701.024][INFO]: Waiting for pending navigations...
+[1601331701.026][INFO]: Done waiting for pending navigations. Status: ok
+[1601331701.026][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3V1oXPed8PGfH3KhQB9QIQsjaCEKKaxNApZ5FizRXHhCCpHJQiRciEQuXLmFRm6gkRpI7eQikVNI5Syk1ga6cgINo0CDFehiFbZYuQhIgX2wDC1WIcbKQwISp..."
+[1601331701.637][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND GetTitle {
+
+}
+[1601331701.637][INFO]: Waiting for pending navigations...
+[1601331701.639][INFO]: Done waiting for pending navigations. Status: ok
+[1601331701.646][INFO]: Waiting for pending navigations...
+[1601331701.647][INFO]: Done waiting for pending navigations. Status: ok
+[1601331701.647][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE GetTitle ""
+[1601331701.707][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND Navigate {
+   "url": "http://the-internet.herokuapp.com"
+}
+[1601331701.707][INFO]: Waiting for pending navigations...
+[1601331701.708][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.086][INFO]: Waiting for pending navigations...
+[1601331702.254][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.254][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE Navigate
+[1601331702.262][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"content\"]/ul/li[39]/a"
+}
+[1601331702.263][INFO]: Waiting for pending navigations...
+[1601331702.300][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.341][INFO]: Waiting for pending navigations...
+[1601331702.342][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.342][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "77e590e6-2298-45aa-99a0-1496219f9597"
+}
+[1601331702.365][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "77e590e6-2298-45aa-99a0-1496219f9597"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601331702.365][INFO]: Waiting for pending navigations...
+[1601331702.375][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.395][INFO]: Waiting for pending navigations...
+[1601331702.396][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.396][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE ExecuteScript true
+[1601331702.403][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND ClickElement {
+   "id": "77e590e6-2298-45aa-99a0-1496219f9597"
+}
+[1601331702.404][INFO]: Waiting for pending navigations...
+[1601331702.406][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.537][INFO]: Waiting for pending navigations...
+[1601331702.953][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.953][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE ClickElement
+[1601331702.961][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"content\"]/div/a[1]"
+}
+[1601331702.962][INFO]: Waiting for pending navigations...
+[1601331702.964][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.985][INFO]: Waiting for pending navigations...
+[1601331702.986][INFO]: Done waiting for pending navigations. Status: ok
+[1601331702.986][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9833d570-7ee0-4cc1-aacc-d7c859922787"
+}
+[1601331703.005][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "9833d570-7ee0-4cc1-aacc-d7c859922787"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601331703.005][INFO]: Waiting for pending navigations...
+[1601331703.006][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.018][INFO]: Waiting for pending navigations...
+[1601331703.020][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.020][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE ExecuteScript true
+[1601331703.025][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND ClickElement {
+   "id": "9833d570-7ee0-4cc1-aacc-d7c859922787"
+}
+[1601331703.026][INFO]: Waiting for pending navigations...
+[1601331703.027][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.111][INFO]: Waiting for pending navigations...
+[1601331703.519][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.519][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE ClickElement
+[1601331703.530][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"content\"]/div/ul/li[1]/a"
+}
+[1601331703.531][INFO]: Waiting for pending navigations...
+[1601331703.532][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.553][INFO]: Waiting for pending navigations...
+[1601331703.554][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.555][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3cd3c3fd-a327-402a-92e7-8ec8308dd63b"
+}
+[1601331703.574][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND GetElementCSSProperty {
+   "id": "3cd3c3fd-a327-402a-92e7-8ec8308dd63b",
+   "propertyName": "color"
+}
+[1601331703.574][INFO]: Waiting for pending navigations...
+[1601331703.575][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.590][INFO]: Waiting for pending navigations...
+[1601331703.592][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.592][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE GetElementCSSProperty "rgba(218, 75, 75, 1)"
+[1601331703.596][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"content\"]/div/ul/li[1]/a"
+}
+[1601331703.596][INFO]: Waiting for pending navigations...
+[1601331703.597][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.606][INFO]: Waiting for pending navigations...
+[1601331703.607][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.607][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3cd3c3fd-a327-402a-92e7-8ec8308dd63b"
+}
+[1601331703.610][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND GetElementCSSProperty {
+   "id": "3cd3c3fd-a327-402a-92e7-8ec8308dd63b",
+   "propertyName": "color"
+}
+[1601331703.610][INFO]: Waiting for pending navigations...
+[1601331703.611][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.620][INFO]: Waiting for pending navigations...
+[1601331703.621][INFO]: Done waiting for pending navigations. Status: ok
+[1601331703.621][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE GetElementCSSProperty "rgba(218, 75, 75, 1)"
+[1601331703.691][INFO]: [7864a42209e3410df6856b559fc41822] COMMAND Quit {
+
+}
+[1601331703.821][INFO]: [7864a42209e3410df6856b559fc41822] RESPONSE Quit
