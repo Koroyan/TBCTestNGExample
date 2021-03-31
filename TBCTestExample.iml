@@ -1,2 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4" />
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="AspectJ" name="AspectJ">
+      <configuration>
+        <option name="aspectPath">
+          <projectLibrary>
+            <option name="name" value="Maven: io.qameta.allure:allure-testng:2.13.5" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.codeborne:selenide:5.15.0" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.testng:testng:7.3.0" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: aopalliance:aopalliance:1.0" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.beust:jcommander:1.78" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.google.code.findbugs:jsr305:1.3.9" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.google.code.gson:gson:2.8.6" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.google.errorprone:error_prone_annotations:2.1.3" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.google.guava:guava:24.0-jre" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.google.inject:guice:no_aop:4.2.2" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.google.j2objc:j2objc-annotations:1.1" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.squareup.okhttp3:okhttp:3.11.0" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: com.squareup.okio:okio:1.14.0" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: commons-codec:commons-codec:1.13" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: commons-io:commons-io:2.8.0" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: io.github.bonigarcia:webdrivermanager:4.2.2" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: io.qameta.allure:allure-java-commons:2.13.5" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: io.qameta.allure:allure-model:2.13.5" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: javax.inject:javax.inject:1" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: junit:junit:4.12" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.apache.ant:ant-launcher:1.10.3" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.apache.ant:ant:1.10.3" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.apache.commons:commons-compress:1.20" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.apache.commons:commons-exec:1.3" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.apache.commons:commons-lang3:3.11" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.apache.httpcomponents.client5:httpclient5:5.0.1" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.apache.httpcomponents.core5:httpcore5:5.0.1" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.apache.tika:tika-core:1.20" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.aspectj:aspectjrt:1.9.6" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.aspectj:aspectjweaver:1.9.6" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.checkerframework:checker-compat-qual:2.0.0" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.hamcrest:hamcrest-core:1.3" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.jooq:joor-java-8:0.9.10" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.jsoup:jsoup:1.13.1" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.rauschig:jarchivelib:1.1.0" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-api:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-edge-driver:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-firefox-driver:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-ie-driver:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-java:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-opera-driver:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-safari-driver:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.seleniumhq.selenium:selenium-support:3.141.59" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.slf4j:slf4j-api:1.7.30" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.slf4j:slf4j-simple:1.7.30" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.springframework:spring-aop:5.3.5" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.springframework:spring-beans:5.3.5" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.springframework:spring-core:5.3.5" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.springframework:spring-jcl:5.3.5" />
+          </projectLibrary>
+          <projectLibrary>
+            <option name="name" value="Maven: org.yaml:snakeyaml:1.21" />
+          </projectLibrary>
+        </option>
+      </configuration>
+    </facet>
+  </component>
+</module>

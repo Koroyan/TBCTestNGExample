@@ -1,0 +1,190 @@
+[1616787185.611][INFO]: Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 11717
+[1616787185.612][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1616787186.501][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\admin\\IdeaProjects\\TBCTestExample\\build\\downloads\\1616787184594_12508_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\admin\\IdeaProjects\\TBCTestExample\\build\\downloads\\1616787184594_12508_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1616787186.507][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\admin\\IdeaProjects\\TBCTestExample\\build\\downloads\\1616787184594_12508_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1616787186.521][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1616787186.527][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\admin\AppData\Local\Temp\scoped_dir2032_1654158145" data:,
+[1616787187.548][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1616787187.554][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1616787187.564][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "89.0.4389.90",
+      "chrome": {
+         "chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})",
+         "userDataDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2032_1654158145"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56938"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9de0b7d9fd1772fe9bfeb6bfe3b8c695"
+}
+[1616787187.657][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1616787187.658][INFO]: Waiting for pending navigations...
+[1616787187.694][INFO]: Done waiting for pending navigations. Status: ok
+[1616787187.813][INFO]: Waiting for pending navigations...
+[1616787187.814][INFO]: Done waiting for pending navigations. Status: ok
+[1616787187.814][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1616787187.825][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1616787187.825][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] RESPONSE SetTimeouts
+[1616787187.846][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] COMMAND Navigate {
+   "url": "http://the-internet.herokuapp.com"
+}
+[1616787187.846][INFO]: Waiting for pending navigations...
+[1616787187.848][INFO]: Done waiting for pending navigations. Status: ok
+[1616787189.720][INFO]: Waiting for pending navigations...
+[1616787193.033][INFO]: Done waiting for pending navigations. Status: ok
+[1616787193.033][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] RESPONSE Navigate
+[1616787193.155][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] COMMAND Screenshot {
+
+}
+[1616787193.155][INFO]: Waiting for pending navigations...
+[1616787193.156][INFO]: Done waiting for pending navigations. Status: ok
+[1616787193.575][INFO]: Waiting for pending navigations...
+[1616787193.576][INFO]: Done waiting for pending navigations. Status: ok
+[1616787193.576][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X1c1HW+//8HFzqKho4FmUEqYG5jFjC2SVliSlpn1dqj1J60PVsGe9J20zpf4PS97WH7nQ7y21brpPUDtT271m6Cu5W2FaGFpottDriZUxpQhqWBOkmijlz9/..."
+[1616787193.614][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] COMMAND Screenshot {
+
+}
+[1616787193.614][INFO]: Waiting for pending navigations...
+[1616787193.615][INFO]: Done waiting for pending navigations. Status: ok
+[1616787193.970][INFO]: Waiting for pending navigations...
+[1616787193.971][INFO]: Done waiting for pending navigations. Status: ok
+[1616787193.971][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X1c1HW+//8HFzqKho4FmUEqYG5jFjC2SVliSlpn1dqj1J60PVsGe9J20zpf4PS97WH7nQ7y21brpPUDtT271m6Cu5W2FaGFpottDriZUxpQhqWBOkmijlz9/..."
+[1616787194.224][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] COMMAND Quit {
+
+}
+[1616787194.313][INFO]: [9de0b7d9fd1772fe9bfeb6bfe3b8c695] RESPONSE Quit

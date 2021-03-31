@@ -28,7 +28,6 @@ public class UploadPage {
         $(submitButton).click();
         $(fileUploadedContent).shouldHave(text("File Uploaded!"));
         byte[] uploaded_files = uploadedFile("uploaded file", uploadFile);
-        sleep(5000);
     }
     @Attachment(value = "{0}", type = "image/png")
     private byte[] uploadedFile(final String testName, final File screenShot) throws IOException {

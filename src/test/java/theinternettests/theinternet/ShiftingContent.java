@@ -1,10 +1,7 @@
 package theinternettests.theinternet;
 
 import com.codeborne.selenide.SelenideElement;
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
 import io.qameta.allure.Step;
-import io.qameta.allure.Story;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
@@ -32,7 +29,6 @@ public class ShiftingContent {
         System.out.println(beforeCssValue+" "+afterCssValue);
         equals(beforeCssValue,afterCssValue);
         step("success");
-        sleep(1000);
     }
 
     @Step("before value {beforeValue} : after value {afterValue}")
@@ -49,6 +45,5 @@ public class ShiftingContent {
         String afterPosition = imageElement.getCssValue("left");
         equals(beforePosition,afterPosition);
         step("success");
-        sleep(1000);
     }
 }
